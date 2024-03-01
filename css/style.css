@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/*
+
+Student Name: S.M. Arif Mahmud
+Student ID  : 1830398
+
+*/
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+.custom-navbar {
+  background-color: #343a40;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Align items vertically in the middle */
+}
+
+/* Style of navbar links */
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+  color: #007bff;
+}
+
+
+.navbar-brand {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-brand:hover{
+  color: #007bff;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Making the user and cart list flex to the right */
+.navbar-nav .ml-auto {
+  margin-left: auto;
+}
+
+/* Header Styles ends */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Product Styles */
+.product-item {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.product-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Product list Styles Ends */
+
+
+
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40; /* Set the background color to match the navbar */
+  color: #fff; /* Set text color to white */
+  padding: 50px 0;
+}
+
+.footer p {
+  margin-bottom: 20px;
+}
+
+/* Style the footer links */
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer ul li a:hover {
+  color: #007bff; /* Set the hover color to match the navbar link hover color */
+}
+
+/* Footer Styles Ends */
+
+/* Contact Section Styles */
+.contact-section {
+  padding: 50px 0;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon svg {
+  width: 30px;
+  height: 30px;
+  color: #007bff;
+}
+
+.service-contents p {
+  margin-top: 10px;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Contact Section Styles Ends */
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+}
